@@ -1,0 +1,54 @@
+
+section
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+}
+.boutonlien1
+{
+    margin: 50px;
+    font-family: 'Goudy Old Style', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #EEBA0B;
+    width: 340px;
+    height: 70px;
+    text-align: center;
+
+}
+.boutonlien2
+{
+    margin: 50px;
+    font-family: 'Goudy Old Style', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #EEBA0B;
+    width: 340px;
+    height: 70px;
+    text-align: center;
+ 
+}
+.boutonlien3
+{
+    margin: 50px;
+    font-family: 'Goudy Old Style', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #EEBA0B;
+    width: 340px;
+    height: 70px;
+    text-align: center;
+}
+ .boutonlien li a 
+ {
+     display: flex;
+     align-items: center;
+ }

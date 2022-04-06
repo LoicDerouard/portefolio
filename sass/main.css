@@ -1,0 +1,74 @@
+@import url("http://fonts.cdnfonts.com/css/goudy-old-style");
+section {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.boutonlien1 {
+  margin: 50px;
+  font-family: "Goudy Old Style", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #EEBA0B;
+  width: 340px;
+  height: 70px;
+  text-align: center;
+}
+
+.boutonlien2 {
+  margin: 50px;
+  font-family: "Goudy Old Style", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #EEBA0B;
+  width: 340px;
+  height: 70px;
+  text-align: center;
+}
+
+.boutonlien3 {
+  margin: 50px;
+  font-family: "Goudy Old Style", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #EEBA0B;
+  width: 340px;
+  height: 70px;
+  text-align: center;
+}
+
+.boutonlien li a {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #EEBA0B;
+}
+header img {
+  display: flex;
+  width: 15%;
+}
+header h1 {
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+  font-family: "Goudy Old Style", sans-serif;
+  padding-right: 35%;
+}/*# sourceMappingURL=main.css.map */
