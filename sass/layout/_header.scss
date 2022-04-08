@@ -1,22 +1,19 @@
-@import url('http://fonts.cdnfonts.com/css/goudy-old-style');
-header
-{
+@import url("http://fonts.cdnfonts.com/css/goudy-old-style");
+header {
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     justify-content: space-between;
-    background-color: #EEBA0B;
-    img 
-    {
+    background-color: #eeba0b;
+    img {
         display: flex;
         width: 15%;
     }
-    h1 
-    {
+    h1 {
         display: flex;
         align-items: center;
         font-size: 80px;
-        font-family: 'Goudy Old Style', sans-serif;
-        padding-right:  35%;
+        font-family: "Goudy Old Style", sans-serif;
+        padding-right: 35%;
     }
 }

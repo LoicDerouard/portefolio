@@ -1,54 +1,65 @@
+.wrapper{
+    position: absolute;
+    top: 7%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    
 
-section
-{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    padding: 50px;
-}
-.boutonlien1
-{
-    margin: 50px;
-    font-family: 'Goudy Old Style', sans-serif;
-    font-size: 50px;
+  }
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
     text-decoration: none;
-    color: white;
-    background-color: #EEBA0B;
-    width: 340px;
-    height: 70px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #333;
+    letter-spacing: 2px;
     text-align: center;
+    position: relative;
+    transition: all .35s;
+    padding: 5px 50px;
+    border-radius: 15px;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    transition: all .35s;
+    border-radius: 12px;
+  }
+  
+  a:hover{
+    color: #eeba0b;;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+  .wrapper1{
+    position: absolute;
+    top: 17%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .wrapper2{
+    position: absolute;
+    top: 27%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+    
 
-}
-.boutonlien2
-{
-    margin: 50px;
-    font-family: 'Goudy Old Style', sans-serif;
-    font-size: 50px;
-    text-decoration: none;
-    color: white;
-    background-color: #EEBA0B;
-    width: 340px;
-    height: 70px;
-    text-align: center;
- 
-}
-.boutonlien3
-{
-    margin: 50px;
-    font-family: 'Goudy Old Style', sans-serif;
-    font-size: 50px;
-    text-decoration: none;
-    color: white;
-    background-color: #EEBA0B;
-    width: 340px;
-    height: 70px;
-    text-align: center;
-}
- .boutonlien li a 
- {
-     display: flex;
-     align-items: center;
- }
