@@ -1,13 +1,18 @@
-.wrapper {
+.wrapper{
   position: absolute;
-  top: 6%;
+  top: 7%;
   left: 85%;
   transform: translate(-50%, -50%);
 
+.wrapper {
+position: absolute;
+top: 6%;
+left: 85%;
+transform: translate(-50%, -50%);
 
 }
 
-a {
+a{
   display: block;
   width: 200px;
   height: 50px;
@@ -17,7 +22,7 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   border: 2px solid #333;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-align: center;
   position: relative;
   transition: all .35s;
@@ -25,12 +30,12 @@ a {
   border-radius: 15px;
 }
 
-a span {
+a span{
   position: relative;
   z-index: 2;
 }
 
-a:after {
+a:after{
   position: absolute;
   content: "";
   top: 0;
@@ -38,28 +43,86 @@ a:after {
   width: 0;
   height: 100%;
   background: #000000;
-  transition: all .26s;
+  transition: all .35s;
   border-radius: 12px;
 }
 
+a:hover{
+  color: #eeba0b;;
+}
+
+a:hover:after{
+  width: 100%;
+}
+.wrapper1{
+  position: absolute;
+  top: 17%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+.wrapper2{
+  position: absolute;
+  top: 27%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+
+}
+
+a {
+display: block;
+width: 200px;
+height: 50px;
+line-height: 40px;
+font-size: 18px;
+font-family: sans-serif;
+text-decoration: none;
+color: rgb(0, 0, 0);
+border: 2px solid #333;
+letter-spacing: 3px;
+text-align: center;
+position: relative;
+transition: all .35s;
+padding: 5px 50px;
+border-radius: 15px;
+}
+
+a span {
+position: relative;
+z-index: 2;
+}
+
+a:after {
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background: #000000;
+transition: all .26s;
+border-radius: 12px;
+}
+
 a:hover {
-  color: #eeba0b;
+color: #eeba0b;
 }
 
 a:hover:after {
-  width: 100%;
+width: 100%;
 }
 
 .wrapper1 {
-  position: absolute;
-  top: 16%;
-  left: 85%;
-  transform: translate(-50%, -50%);
+position: absolute;
+top: 16%;
+left: 85%;
+transform: translate(-50%, -50%);
 }
 
 .wrapper2 {
-  position: absolute;
-  top: 26%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-}
+position: absolute;
+top: 26%;
+left: 85%;
+transform: translate(-50%, -50%);
+} 
