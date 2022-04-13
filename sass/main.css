@@ -1,7 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/goudy-old-style");
 .wrapper {
   position: absolute;
-  top: 7%;
+  top: 6%;
   left: 85%;
   transform: translate(-50%, -50%);
 }
@@ -16,7 +16,7 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   border: 2px solid #333;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-align: center;
   position: relative;
   transition: all 0.35s;
@@ -37,7 +37,7 @@ a:after {
   width: 0;
   height: 100%;
   background: #000000;
-  transition: all 0.35s;
+  transition: all 0.26s;
   border-radius: 12px;
 }
 
@@ -51,20 +51,16 @@ a:hover:after {
 
 .wrapper1 {
   position: absolute;
-  top: 17%;
+  top: 16%;
   left: 85%;
   transform: translate(-50%, -50%);
 }
 
 .wrapper2 {
   position: absolute;
-  top: 27%;
+  top: 26%;
   left: 85%;
   transform: translate(-50%, -50%);
-}
-
-body {
-  background-color: black;
 }
 
 *,
@@ -113,7 +109,7 @@ body {
 
 .card_part.card_part-two {
   z-index: 6;
-  background-image: url(https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/2.jpg?raw=true);
+  background-image: url(/img/projet2.png);
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
 }
@@ -161,6 +157,10 @@ body {
     transform: translateX(-700px);
   }
 }
+body {
+  background-color: black;
+}
+
 header {
   display: flex;
   height: auto;
@@ -178,4 +178,5 @@ header h1 {
   font-size: 80px;
   font-family: "Goudy Old Style", sans-serif;
   padding-right: 35%;
+  letter-spacing: 3px;
 }/*# sourceMappingURL=main.css.map */
